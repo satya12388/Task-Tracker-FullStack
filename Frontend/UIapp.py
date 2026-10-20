@@ -1,5 +1,4 @@
 import time
-from sqlalchemy import exc
 import streamlit as st
 import requests
 
@@ -222,4 +221,3 @@ with task_create:
                     st.rerun()
                 else:
                     st.error(f"❌ {msg}")  
-
